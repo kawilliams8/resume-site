@@ -36,6 +36,10 @@ h2 {
   margin-left: -20px;
 }
 
+.contact li {
+  padding-bottom: 5px;
+}
+
 .contact li a {
   color: #205d9e;
   font-family: 'Raleway';
@@ -47,6 +51,11 @@ h2 {
 .contact li a:hover,
 .contact li a:visited {
   color: #205d9e;
+}
+
+.contact li a:active,
+.contact li a:hover {
+  text-decoration: underline;
 }
 
 #largepeaks {

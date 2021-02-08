@@ -12,15 +12,13 @@ function App() {
       </div>
       <ul className="contact">
         <li>
+          <a href="mailto:kawilliams8@gmail.com?subject=Hey, Katie!">Email</a>
+        </li>
+        <li>
           <a href="https://github.com/kawilliams8/">GitHub</a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/kawilliamsco/">LinkedIn</a>
-        </li>
-        <li>
-          <a href="mailto:kawilliams8@gmail.com?subject=Hey, Katie!">
-            Send me an email
-          </a>
         </li>
       </ul>
       <img
