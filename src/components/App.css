@@ -1,0 +1,65 @@
+.App {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex-direction: row;
+  width: 90%;
+}
+
+h1 {
+  font-family: "Raleway-Bold";
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+h2 {
+  color: #205d9e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 31px;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.line {
+  margin: 0 auto 0 22px;
+  width: 504px;
+}
+
+.contact {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.contact li a {
+  color: #205d9e;
+  font-family: 'Raleway';
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.contact li a:active,
+.contact li a:hover,
+.contact li a:visited {
+  color: #205d9e;
+}
+
+#largepeaks {
+  width: 600px;
+  margin: -225px 0 0 auto;
+}
+
+.footer {
+  flex-direction: row;
+  width: 100%;
+}
+
+#smallpeaks {
+  width: 300px;
+  margin: 175px auto 0 0;
+}
